@@ -11,6 +11,7 @@ O que faz:
 ## **Requisitos**
 
 Certifique-se de ter o Python instalado e as bibliotecas listadas em `requirements.txt`:
+OBS: foi utilizado python 3.12.3
 
 ```bash
 pip install -r requirements.txt
