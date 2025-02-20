@@ -89,7 +89,7 @@ Conteudo não encontrado
 
 ## **Observações**
 
-- Esse script é para malvade pura. Mas culpa do site que tem um banco de questões da Cisco.
+- Esse script é para maldade pura. Mas culpa do site que tem um banco de questões da Cisco.
 - Sei que você é um aluno vagabundo que nem eu e meus amigos e quer passar em redes da maneira mais Ez possível, então utilize!
 
 
