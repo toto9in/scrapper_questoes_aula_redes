@@ -11,6 +11,7 @@ O que faz:
 ## **Requisitos**
 
 Certifique-se de ter o Python instalado e as bibliotecas listadas em `requirements.txt`:
+OBS: foi utilizado python 3.12.3
 
 ```bash
 pip install -r requirements.txt
@@ -89,7 +90,7 @@ Conteudo não encontrado
 
 ## **Observações**
 
-- Esse script é para malvade pura. Mas culpa do site que tem um banco de questões da Cisco.
+- Esse script é para maldade pura. Mas culpa do site que tem um banco de questões da Cisco.
 - Sei que você é um aluno vagabundo que nem eu e meus amigos e quer passar em redes da maneira mais Ez possível, então utilize!
 
 
