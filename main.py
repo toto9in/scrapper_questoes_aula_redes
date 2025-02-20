@@ -4,8 +4,10 @@ import re
 
 BASE_URL = "https://itexamanswers.net/question/"
 
+
 def format_question_to_url(question):
-    formatted = re.sub(r'[^a-zA-Z0-9\s]', '', question)
+    question = question.replace('/', "-")
+    formatted = re.sub(r'[^a-zA-Z0-9\s-]', '', question)
     formatted = re.sub(r'\s+', '-', formatted.strip())
     return formatted.lower()
 
@@ -23,6 +25,9 @@ def scrape_question_content(question):
 
     if content_div:
         correct_answer = content_div.find_all('li', class_='correct_answer') ## find_all retorna SEMPRE uma lista de acordo com a docs e stackoverflow
+        if correct_answer == []:
+            correct_answer = content_div.find_all('span', attrs={'style': 'color: #ff0000;'})
+
 
         if correct_answer.__len__() == 1:
             correct_text = correct_answer[0].text
